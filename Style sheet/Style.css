@@ -10,6 +10,7 @@
     height: 100vh;
 }
 
+
 html, body {
     height: 100%;
 }
@@ -31,19 +32,13 @@ p {
     font-size: 24px;
 }
 
-.box {
-    position: relative;
-    width: 1100px; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 20px;
-    margin-top: 40px;
-    margin-left: 80px;
-}
 
+.box{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 .recipe {
+
     max-width: 600px;
     margin: 0 auto;
     background-color: #fff;
@@ -79,4 +74,48 @@ ul li, ol li {
     font-size: 20px;
     margin-left: 25px;
     
+}
+.faq{
+    margin-top: 10px;
+ }
+
+.name{
+    font-size: 40px;
+    color: #18140f;
+    margin-bottom: 43px;
+}
+
+.faq {
+    text-align: center;
+    padding: 20px;
+}
+
+.faq-item {
+    background-color: #fff;
+    border: 2px solid #a85d34;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.question {
+    font-weight: bold;
+    font-size: 25px;
+    color: #a85d34;
+    margin-bottom: 5px;
+}
+
+
+.answer {
+    display: none;
+    font-size: 20px;
+    margin-left: 25px;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+}
+
+.faq-item:hover .answer {
+    display: block;
 }
