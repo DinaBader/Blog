@@ -40,10 +40,9 @@ p {
 .recipe {
     max-width: 600px;
     margin: 0 auto;
-    background-color: #fff;
+    background-color: #f5f4f4;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h1, h2 {
@@ -69,11 +68,6 @@ ul li, ol li {
     margin-left: 18px;
 }
 
-.answer {
-    display: none;
-    font-size: 20px;
-    margin-left: 25px;
-}
 
 .faq {
     text-align: center;
@@ -87,13 +81,6 @@ ul li, ol li {
     margin-bottom: 20px;
     padding: 20px;
     cursor: pointer;
-}
-
-.question {
-    font-weight: bold;
-    font-size: 25px;
-    color: #a85d34;
-    margin-bottom: 5px;
 }
 
 .answer {
