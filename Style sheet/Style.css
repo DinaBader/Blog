@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 .container{
-    background-image: url('/Assets/Cookies.jpg');
+    background-image: url('/Assets/alsocookie.jpg');
     background-size: cover;
     height: 100vh;
 }
@@ -16,7 +16,7 @@ html, body {
 }
 
 body {
-    background-color: #f0f0f0;
+    background-color: #e7e4e4;
     position: relative;
 }
 
@@ -44,7 +44,6 @@ p {
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h1,h2 {
@@ -81,7 +80,7 @@ ul li, ol li {
 
 .name{
     font-size: 40px;
-    color: #18140f;
+    color: #ffffff;
     margin-bottom: 43px;
 }
 
@@ -94,7 +93,6 @@ ul li, ol li {
     background-color: #fff;
     border: 2px solid #a85d34;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     margin-bottom: 20px;
     padding: 20px;
     cursor: pointer;
@@ -118,4 +116,31 @@ ul li, ol li {
 
 .faq-item:hover .answer {
     display: block;
+}
+
+.page-title {
+    margin-top: 20px;
+    font-size: 38px;
+    color: #603928;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.intro {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.section-title {
+    font-size: 33px;
+    color: #603928;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.science {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 30px;
 }
